@@ -70,6 +70,8 @@ Nhấn lưu lại bằng câu lệnh:
     
 Chạy lệnh cài đặt và chạy node:
 
+    docker build . -f Dockerfile -t elixir-validator
+
     docker run -d --restart unless-stopped --name ev elixir-validator
     
 Vào Dashboard dự án, dùng ví metamask mà bạn vừa điền ở Dockerfile kết nối, làm nhiệm vụ:
