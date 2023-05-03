@@ -58,9 +58,9 @@ Thay đổi các thông tin của bạn, dùng ví metamask:
 
     FROM elixirprotocol/validator:testnet-2
 
-    ENV ADDRESS=<địa chỉ ví Metamask>
-    ENV PRIVATE_KEY=<privatekey>
-    ENV VALIDATOR_NAME=<tên node>
+    ENV ADDRESS=
+    ENV PRIVATE_KEY=
+    ENV VALIDATOR_NAME=
     
 Nhấn lưu lại bằng câu lệnh:
 
